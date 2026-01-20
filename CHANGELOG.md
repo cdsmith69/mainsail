@@ -2,6 +2,25 @@
 # Changelog
 All notable changes to Mainsail will be documented in this file.
 
+## [unreleased]
+### Bug Fixes and Improvements
+
+- **ConfigFilesPanel**: Fix translation key for delete dialog titles ([#2399](https://github.com/mainsail-crew/mainsail/pull/2399))
+- Exclude tmp data from backup/restore mainsail settings ([#2391](https://github.com/mainsail-crew/mainsail/pull/2391))
+
+### Refactor
+
+- Add strict typing for emitAndWait RPC methods ([#2325](https://github.com/mainsail-crew/mainsail/pull/2325))
+
+### Styling
+
+- **prettier**: Run prettier and fix format in variables.ts ([#2392](https://github.com/mainsail-crew/mainsail/pull/2392))
+- Run prettier and fix format in some files ([#2398](https://github.com/mainsail-crew/mainsail/pull/2398))
+
+### Other
+
+- Upgrade vite to v7 to fix esbuild security vulnerabilit ([#2393](https://github.com/mainsail-crew/mainsail/pull/2393))
+
 ## [2.17.0](https://github.com/mainsail-crew/mainsail/releases/tag/v2.17.0) - 2026-01-11
 ### Features
 
